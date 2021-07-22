@@ -11,7 +11,7 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-var url_to_geotiff_file = "https://stacks.stanford.edu/file/druid%3Avq494qx9344/odm_orthophoto_COG_d.tif";
+var url_to_geotiff_file = "https://stacks.stanford.edu/file/druid:vq494qx9344/odm_orthophoto_COG_d.tif";
 
 fetch(url_to_geotiff_file)
   .then(response => response.arrayBuffer())
